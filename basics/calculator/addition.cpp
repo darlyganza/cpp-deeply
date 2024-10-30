@@ -7,5 +7,4 @@ int main(){
 	sum=c+d;
 	cout <<"The sum of "<<c<<" and "<<d<<" is "<< sum<<endl;
 	return 0;
-	
 }
