@@ -28,5 +28,10 @@ cin >> userLastName;
 cout <<"Hello "<<userLastName<<"; How are you doing?\n ";
 //cin will ignore or consider whitespace or tab spaces as terminating characters
 
+//using getline() function will meet all the limitations of cin:
+string userName;
+cout<<"Enter your whole name: "<<endl;
+getline(cin, userName);
+cout <<"Hello "<<userName;
 	return 0;
 }
