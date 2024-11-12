@@ -26,5 +26,7 @@ string userLastName;
 cout<<"Enter your name (last name) "<<endl;
 cin >> userLastName;
 cout <<"Hello "<<userLastName<<"; How are you doing?\n ";
+//cin will ignore or consider whitespace or tab spaces as terminating characters
+
 	return 0;
 }
