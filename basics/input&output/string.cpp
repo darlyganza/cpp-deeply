@@ -31,7 +31,7 @@ cout <<"Hello "<<userLastName<<"; How are you doing?\n ";
 //using getline() function will meet all the limitations of cin:
 string userName;
 cout<<"Enter your whole name: "<<endl;
-cin.ignore();
+cin.ignore(); //because cin has already contained some inputs
 getline(cin,userName);
 cout <<"Hello "<<userName;
 	return 0;
