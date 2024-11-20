@@ -7,7 +7,6 @@ using namespace std;
 
 int main(){
 	cout<<myName;
-	const int age = 13;
 	cout<<"\nAge: "<<age<<" years";
 	return 0;
 }
