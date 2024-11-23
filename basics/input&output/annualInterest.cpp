@@ -10,7 +10,7 @@ double interestRate;
 double totalInterest ;
 cout <<"Enter your full name: "<<endl;
 cin>>fullName;
-cout<<"Enter your initial earning amount: "<<endl;
+cout<<"Enter your current earning amount: "<<endl;
 cin>>initialAmount;
 cout<<"Enter Your interest rate per year: "<<endl;
 cin>>interestRate;
