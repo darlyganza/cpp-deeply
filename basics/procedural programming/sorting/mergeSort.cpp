@@ -8,8 +8,14 @@
 #include<iostream>
 using namespace std;
 int mergeSort(int array,int arrayLength){
-		
+		arrayLength = sizeof(array)/sizeof(array[0]);
+		if (arrayLength<=1){
+			return arrayLength;
+		}
 	}
+int mergeHelper(int array,int leftArray;int rightArray){//This function will help to hold the array after it has been splitted into parts:
+	
+}
 int main(){
 	int numArr[]= {9,7,8,4,5,61,25,62};
 	int arrLen = sizeof(numArr)/sizeof(numArr[0]);

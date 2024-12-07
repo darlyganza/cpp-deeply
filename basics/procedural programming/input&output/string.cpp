@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string> //some programs may work just fine without using the directive and also using the #include<string.h>
+#include <cctype>
 using namespace std;
 int main(){
 	//using the string complex type with build in functions to deal with strings.
@@ -34,5 +35,13 @@ cout<<"Enter your whole name: "<<endl;
 cin.ignore(); //because cin has already contained some inputs
 getline(cin,userName);
 cout <<"Hello "<<userName;
+
+//String manipulation function
+
+char sampleLetter;
+char c = 'C';
+char letter = tolower(c);
+cout<<"The letter you entered in lowercase is: "<<letter;
+
 	return 0;
 }
