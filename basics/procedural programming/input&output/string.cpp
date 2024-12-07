@@ -36,12 +36,5 @@ cin.ignore(); //because cin has already contained some inputs
 getline(cin,userName);
 cout <<"Hello "<<userName;
 
-//String manipulation function
-
-char sampleLetter;
-char c = 'C';
-char letter = tolower(c);
-cout<<"The letter you entered in lowercase is: "<<letter;
-
 	return 0;
 }
