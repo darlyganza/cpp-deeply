@@ -19,8 +19,13 @@ int main(){
 	//functions can also be called and passed to main variables: i.e
 	int altogether, x=1, y=3;
 	altogether = sum(x,y);
-	cout<<"\n"<<altogether;
+	cout<<"\n"<<altogether<<endl;
+	//function overloading: a way to define a function in different ways and assigning the desired values
 	cout<<sum(12.2,12.2);
+	
+	
+	//function templates (defining a function so that it can operate on arguments of any data type:
+	
 	
 	return 0;
 }
