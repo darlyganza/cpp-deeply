@@ -2,7 +2,12 @@
 #include<cstring>
 using namespace std;
 	//user defined function better defined before the main:
-	int sum(int a, int b){
+//	function overloading : giving functions same name but the parameters are different and some of the same parameters have different data types
+
+int sum(int a, int b){
+	return a+b;
+}
+	double sum(double a, double b){
 		int sum = a+b;
 		return sum;
 	}
@@ -15,5 +20,7 @@ int main(){
 	int altogether, x=1, y=3;
 	altogether = sum(x,y);
 	cout<<"\n"<<altogether;
+	cout<<sum(12.2,12.2);
+	
 	return 0;
 }
