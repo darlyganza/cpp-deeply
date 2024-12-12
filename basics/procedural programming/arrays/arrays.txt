@@ -1,0 +1,11 @@
+Arrays can be manipulated in the following ways as the pseudo code of the array declaration and inserting elements:
+
+BEGIN
+	SET students=Array [200] of string;
+	FOR index=0 TO 200 DO
+		READ 
+			students [index];
+			index+=1;
+			LOOP
+	END FOR;
+END
